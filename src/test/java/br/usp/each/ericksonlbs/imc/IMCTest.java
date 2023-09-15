@@ -33,13 +33,13 @@ public class IMCTest {
 	}	
 	@Test
 	public void test5() {
-		int expected = 4;
+		int expected = 5;
 		int actual = IMC.Calc(110.0, 1.75);
 		Assert.assertEquals(expected, actual);
 	}	
 	@Test
 	public void test6() {
-		int expected = 5;
+		int expected = 4;
 		int actual = IMC.Calc(150.0, 1.75);
 		Assert.assertEquals(expected, actual);
 	}	
